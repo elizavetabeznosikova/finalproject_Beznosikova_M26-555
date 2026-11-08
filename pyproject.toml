@@ -9,6 +9,8 @@ authors = [
 requires-python = ">=3.12"
 dependencies = [
     "prettytable>=3.18.0",
+    "python-dotenv>=1.2.4",
+    "requests>=2.34.2",
 ]
 
 [project.scripts]
@@ -17,6 +19,11 @@ valutatrade = "valutatrade_hub.cli.interface:main"
 [build-system]
 requires = ["uv_build>=0.13.6,<0.14.0"]
 build-backend = "uv_build"
+
+
+[tool.uv.build-backend]
+module-root = ""
+module-name = "valutatrade_hub"
 
 [dependency-groups]
 dev = [

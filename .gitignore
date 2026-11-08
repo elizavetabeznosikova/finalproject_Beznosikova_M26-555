@@ -1,3 +1,7 @@
+logs/
+.DS_Store
+.uv/
+*.cast
 __pycache__/
 dist/
 *.egg-info/
