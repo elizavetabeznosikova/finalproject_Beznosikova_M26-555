@@ -52,4 +52,5 @@ exit	Завершение работы
 
 ## Пример работы CLI
 
-![Demo](https://asciinema.org/a/mQVDvGOw0YipYaWE.svg)
+[Смотреть запись в плеере](https://asciinema.org/a/mQVDvGOw0YipYaWE)
+
